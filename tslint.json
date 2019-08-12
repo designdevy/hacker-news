@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "ordered-imports": true,
+    "no-submodule-imports": false,
+    "object-literal-sort-keys": false,
+    "no-implicit-dependencies": false,
+    "interface-name": false,
+    "prettier": [
+      true,
+      ".prettierrc"
+    ]
+  }
+}
